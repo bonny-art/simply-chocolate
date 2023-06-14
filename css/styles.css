@@ -1,0 +1,126 @@
+:root {
+  /* #111111 */
+  --black-color: #111111;
+  /* #1E1823 */
+  --gray-color: #1e1823;
+  /* #FD9222 */
+  --orange-color: #fd9222;
+  /* #FCF1E0 */
+  --ivory-color: #fcf1e0;
+  /* #FAFAFA */
+  --white-color: #fafafa;
+}
+
+.page {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 1.29;
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list {
+  list-style: none;
+}
+
+.button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/**
+  |============================
+  | Header
+  |============================
+*/
+
+.header {
+}
+
+.header-nav {
+}
+
+.header-logo-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+}
+
+.hesder-logo-accent {
+  font-style: italic;
+}
+
+.header-logo-img {
+}
+
+.header-nav-list {
+}
+
+.header-nav-item {
+}
+
+.header-nav-link {
+  font-weight: 500;
+  line-height: 1.14;
+  align-items: center;
+  letter-spacing: -0.02em;
+}
+
+.header-socials-list {
+}
+
+.header-socials-item {
+}
+
+.header-socials-link {
+}
+
+.header-socials-img {
+}
+
+/**
+  |============================
+  | Hero sectiion
+  |============================
+*/
+
+.hero {
+  background-color: var(--gray-color);
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: var(--white-color);
+}
+
+.hero-button {
+  background-color: var(--orange-color);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  color: var(--white-color);
+}
+
+.hero-link {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  color: var(--white-color);
+}
+
+.hero-button-scroll {
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+  color: var(--white-color);
+}
